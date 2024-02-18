@@ -34,6 +34,7 @@ const Card: FC<CardProps> = ({ data }) => {
       await updateDoc(docRef, {
         people: arrayUnion(auth?.user?.uid),
       });
+      localStorage.setItem('session', 'true');
     } catch (error) {}
     console.log('current user ' + auth?.user?.uid);
     console.log(data);
@@ -43,6 +44,7 @@ const Card: FC<CardProps> = ({ data }) => {
       if (data?.uid === auth?.user?.uid) {
         await deleteDoc(doc(db, 'rooms', data?.uid));
       }
+      const userSession = localStorage.setItem('session', 'false');
       const docRef = doc(db, 'rooms', data.uid);
       await updateDoc(docRef, {
         people: data?.people.filter(

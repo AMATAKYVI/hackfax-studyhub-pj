@@ -28,12 +28,13 @@ const Modal: FC<ModalProps> = ({ onClose }) => {
     };
   }, [onClose]);
   const handleSubmit = async () => {
-    const userInSession = false;
+    const userInSession = localStorage.getItem('session') === 'true';
     /* Add your logic to check if the user is in a session */
 
     if (userInSession) {
+      console.log('user already in session');
       // Display an error message indicating that the user is already in a session
-      console.log('User is already in a session');
+      toast.error('User is already in a session');
       return;
     }
     const data = {
