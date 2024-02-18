@@ -7,10 +7,10 @@ interface UserProfileProps {}
 const UserProfile: FC<UserProfileProps> = ({}) => {
   const auth = useContext(AuthContext);
   return (
-    <div className="bg-white mt-20 mx-20 py-8 px-6 flex flex-col items-center rounded-lg shadow-md relative backdrop-filter backdrop-blur-lg bg-opacity-70">
+    <div className="bg-white border-t-3 shadow-xl border-t-green-400 mt-20 mx-20 py-8 px-6 flex flex-col items-center rounded-lg shadow-md relative backdrop-filter backdrop-blur-lg bg-opacity-70">
       {/* Blurry dots */}
 
-      <div className="border px-10 py-5 rounded-md shadow-sm">
+      <div className="border border-t-2 px-10 py-5 rounded-md shadow-sm">
         <h2 className="text-lg font-semibold text-gray-800 mb-4">
           {auth?.user?.name}&apos;s Profile
         </h2>
