@@ -69,7 +69,7 @@ const Card: FC<CardProps> = ({ data }) => {
   };
   //   console.log(auth?.user);
   return (
-    <div className="border  rounded-lg flex flex-col p-5">
+    <div className="border bg-white shadow-lg  rounded-lg flex flex-col p-5">
       <div className="flex justify-between items-center mb-2">
         <div className="">
           <Image
