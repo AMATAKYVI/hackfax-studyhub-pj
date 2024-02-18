@@ -3,7 +3,7 @@ import { getFirestore } from 'firebase/firestore';
 // TODO: Add SDKs for Firebase products that you want to use
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_APIKEY,
-  authDomain: process.env.FIREBASE_AUTHDOMAIN,
+  authDomain: process.env.FIREBADE_AUTHDOMAIN,
   projectId: process.env.FIREBASE_PROJECTID,
   storageBucket: 'hackfax-e62a7.appspot.com',
   messagingSenderId: '602914139092',
