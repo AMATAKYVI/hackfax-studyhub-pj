@@ -17,6 +17,6 @@ if (getApps().length === 0) {
 } else {
   app = getApp();
 }
-export default app;
 // db
-export const db = getFirestore(app);
+const db = getFirestore(app);
+export { app, db };
