@@ -36,9 +36,12 @@ const Navbar: FC<NavbarProps> = ({ initialData }) => {
         className="max-w-[85rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between"
         aria-label="Global"
       >
-        <Link className="sm:order-1 flex-none text-xl font-semibold " href="/">
-          StudyHub
+        <Link href="/">
+          <div className="flex items-center justify-center text-3xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">
+            <span className="mr-2">📚</span> StudyHub
+          </div>
         </Link>
+
         <div className="sm:order-3 flex items-center gap-x-2">
           <button
             type="button"

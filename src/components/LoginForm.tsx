@@ -8,8 +8,10 @@ const LoginForm: FC<LoginFormProps> = ({}) => {
   const auth = useContext(AuthContext);
   return (
     <div className="border z-10 flex justify-center items-center h-screen">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-        <div className="font-semibold text-center mb-3 text-xl">Study Hub</div>
+      <form className="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4">
+        <div className="flex mb-5 items-center justify-center text-3xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">
+          <span className="mr-2">📚</span> StudyHub
+        </div>{' '}
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
