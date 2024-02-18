@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer';
+import LandingHeader from '@/components/LandingHeader';
 import Loading from '@/components/Loading';
 import Login from '@/components/Login';
 import Navbar from '@/components/Navbar';
@@ -42,6 +43,10 @@ export default function Home({ initialData }: any) {
   return (
     <main className="relative h-screen">
       <Navbar initialData={data} />
+      <LandingHeader />
+      <hr />
+      <div className="text-xl font-semibold px-10 mb-4 mt-4 ">Session</div>
+      <hr />
       <Rooms initialData={data} />
       <div className="absolute bottom-0 w-full">
         <Footer />
