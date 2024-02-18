@@ -11,9 +11,9 @@ const LandingHeader: FC<LandingHeaderProps> = ({}) => {
         </h2>
         <p className="text-lg text-gray-600">
           Our web app provides a platform for students to collaborate and
-          organize study sessions efficiently. Whether you're working on a group
-          project, preparing for exams, or simply looking for study partners,
-          our app offers the tools you need to succeed.
+          organize study sessions efficiently. Whether you&apos;re working on a
+          group project, preparing for exams, or simply looking for study
+          partners, our app offers the tools you need to succeed.
         </p>
       </div>
     </div>

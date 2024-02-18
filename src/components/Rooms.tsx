@@ -19,11 +19,6 @@ const Rooms: FC<RoomsProps> = ({ initialData }: any) => {
       {initialData?.map((data: any) => {
         return <Card key={data.uid} data={data} />;
       })}
-      {/* {initialData?.length === 0 && (
-        <div className="text-center w-full">
-          <p>No Rooms Available</p>
-        </div>
-      )} */}
     </div>
   );
 };

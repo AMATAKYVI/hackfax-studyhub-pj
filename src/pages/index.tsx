@@ -42,6 +42,11 @@ export default function Home({ initialData }: any) {
 
   return (
     <main className="relative h-screen">
+      <div className="absolute inset-0 overflow-hidden z-[-1]">
+        <div className="absolute h-40 w-40 rounded-full bg-red-500 blur-[100px] top-20 -left-20"></div>
+        <div className="absolute h-40 w-40 rounded-full bg-blue-500 blur-[100px] bottom-0 -right-20"></div>
+        <div className="absolute h-40 w-40 rounded-full bg-green-500 blur-[100px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+      </div>
       <Navbar initialData={data} />
       <LandingHeader />
       <hr />
