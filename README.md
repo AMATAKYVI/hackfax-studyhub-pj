@@ -1,6 +1,7 @@
 ## Study Hub Session
 
 [Note] Will Resurface this Project during the break June 2024
+
 Welcome to Study Hub Session! This is a platform designed to help you organize and manage your study sessions effectively.
 
 ### Getting Started
