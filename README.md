@@ -1,5 +1,6 @@
 ## Study Hub Session
 
+[Note] Will Resurface this Project during the break June 2024
 Welcome to Study Hub Session! This is a platform designed to help you organize and manage your study sessions effectively.
 
 ### Getting Started
@@ -22,4 +23,3 @@ To get started with Study Hub Session, follow these steps:
 *   **Track Progress**: Monitor your study progress and performance over time.
 *   **Access Study Resources**: Explore a library of study materials, including textbooks, videos, and quizzes.
 
-Not useful
